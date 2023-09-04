@@ -33,11 +33,7 @@ While the code could be better organized and structured, the current organizatio
 
 **Disclaimer:** This repository provides the code associated with the paper, and additional steps may be required to reproduce the results fully.
 
-## About
-
-No description, website, or topics provided.
-
 ## Resources
 
-- [Paper Link](#) (Provide a link to the published paper if available)
+- [Paper Link](#) (https://arxiv.org/abs/2309.00506)
 - [Download Data](https://drive.google.com/file/d/19r1UIPgTiZCVxR-o2u-EYe-H-puyggSn/view?usp=sharing)
