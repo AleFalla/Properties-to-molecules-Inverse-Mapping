@@ -25,7 +25,7 @@ The model architectures are defined in the `models_old.py` script (alternatively
 
 ## Miscellaneous
 
-Other scripts serve as utilities for various applications. The code related to the geodesic search and interpolation for the NEB part is being prepared.
+Other scripts serve as utilities for various applications. For the interpolation we have here a script called interpolator which can be adapted to reproduce the procedure used in the paper.
 
 ## General Remarks
 
