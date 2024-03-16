@@ -94,9 +94,12 @@ modello.to(devicet)
 modello.freeze()
 modello.eval()
 
-initial_props = torch.load('./initial.pt').to(devicet)
-final_props = torch.load('./final.pt').to(devicet)
-N = 50
+ni = 39582#40006#40850
+nf = 39583#40004#40849
+
+initial_props = torch.load(f'./{ni}.pt').to(devicet)
+final_props = torch.load(f'./{nf}.pt').to(devicet)
+N = 6
 
 interp = Interpolator(
 initial_props.view(1,-1),
@@ -110,7 +113,7 @@ optimizer = torch.optim.AdamW(interp.parameters(), lr=1e-3)
 sch = ReduceLROnPlateau(optimizer, factor = 0.9, patience = 100)
 i = 0
 
-while grad_norm >=1e-3 and i < 2e6:
+while grad_norm >=1e-3 and i < 1e6:
     i+=1
     optimizer.zero_grad()
     loss_z, loss_p, CMs, Zs = interp(modello)
@@ -119,7 +122,6 @@ while grad_norm >=1e-3 and i < 2e6:
     for param in interp.parameters():   
         grad_norm = torch.linalg.norm(param.grad)
         param = param + 1e-4*torch.randn_like(param)     
-        
         
     if i%10 == 0:
         sch.step(loss_z + loss_p)
