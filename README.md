@@ -52,4 +52,4 @@ While the code could be better organized and structured, the current organizatio
 ## Resources
 
 - [Paper Link](#) (https://arxiv.org/abs/2309.00506)
-- [Download Data](https://drive.google.com/file/d/19r1UIPgTiZCVxR-o2u-EYe-H-puyggSn/view?usp=sharing)
+- [Download Data](https://www.dropbox.com/scl/fi/mnhm3fua5tl01dre0t4j0/dati.zip?rlkey=b7ah86h3jrgcshexgokxnjl3d&st=db6uk77m&dl=0)
