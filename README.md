@@ -1,6 +1,6 @@
 # Properties-to-molecules-Inverse-Mapping
 
-This repository contains the code for the paper titled: [**Enabling Inverse Design in Chemical Compound Space: Mapping Quantum Properties to Structures for Small Organic Molecules**](https://arxiv.org/abs/2309.00506)
+This repository contains the code for the paper titled: [**Inverse mapping of quantum properties to structures for chemical space of small organic molecules**](https://www.nature.com/articles/s41467-024-50401-1)
 
 ## Description
 
@@ -51,5 +51,5 @@ While the code could be better organized and structured, the current organizatio
 
 ## Resources
 
-- [Paper Link](#) (https://arxiv.org/abs/2309.00506)
+- [Paper Link](#) (https://www.nature.com/articles/s41467-024-50401-1)
 - [Download Data](https://www.dropbox.com/scl/fi/mnhm3fua5tl01dre0t4j0/dati.zip?rlkey=b7ah86h3jrgcshexgokxnjl3d&st=db6uk77m&dl=0)
