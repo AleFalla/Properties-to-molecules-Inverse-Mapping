@@ -49,6 +49,11 @@ Other scripts serve as utilities for various applications. For the interpolation
 
 While the code could be better organized and structured, the current organization serves the purpose of scientifically presenting and prototyping the novel methodology outlined in the paper.
 
+## Licensing
+
+- **Notebooks (`*.ipynb`)**: Licensed under the GNU General Public License, Version 2 (GPL-2.0). See the `LICENSE_GPL` file for more details.
+- **All Other Files**: Licensed under the MIT License. See the `LICENSE` file for more details.
+
 ## Resources
 
 - [Paper Link](#) (https://www.nature.com/articles/s41467-024-50401-1)
